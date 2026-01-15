@@ -1,81 +1,66 @@
 # Secure Distributed Cloud Lab
 
-## Overview
-This lab investigates **secure-by-design distributed cloud architectures**. Modern cloud and distributed systems underpin government, industry, and research infrastructures. Security incidents in these environments often arise from **architectural weaknesses**—misconfigurations, over-permissive access controls, and poorly defined trust boundaries—rather than zero-day exploits.
+**Lab Project:** Secure Distributed Cloud Architectures
 
-This structured research programme establishes **practical, reproducible artefacts** to study how architecture, identity, access management (IAM), and threat modelling can **reduce attack surfaces** and improve **system resilience**. The lab supports **PhD-level research** in distributed systems security, trustworthy systems, and secure software engineering, while remaining grounded in real-world cloud operations.
+Cloud and distributed systems underpin modern digital infrastructure across government, industry, and research domains. However, security incidents in these environments frequently arise not from zero-day exploits, but from **architectural weaknesses** such as misconfigurations, over-permissive access controls, and poorly defined trust boundaries.
 
----
+This lab forms the first phase of a structured research programme investigating **secure-by-design distributed cloud architectures**, focusing on how architectural decisions, identity and access management (IAM), and threat modelling can reduce attack surfaces and improve system resilience.
 
-## Lab 01 – Week 1–2: Architecture & Design
-**Objective:** Design a secure distributed cloud system as a foundation for later threat modelling and security experiments.
-
-### Key Activities
-- Layered architecture design: **Web Tier, App Tier, Data Tier**
-- Defined **trust boundaries** and IAM enforcement points
-- Applied **zero-trust principles** and **least privilege** policies
-- Integrated observability: **Azure Log Analytics + Microsoft Sentinel**
-- Generated baseline **architecture diagrams** for reproducibility
-
-### Architecture Diagram
-**Figure 1: Secure Distributed Cloud Architecture with Trust Boundaries**
-
-[Figure 1: Secure Distributed Cloud Architecture with Trust Boundaries](diagrams/week1-architecture-v1.1.png)
-
-### Artefacts
-- `research/week1-2-foundations/day1-research-framing.md`
-- `research/week1-2-foundations/day2-architecture-design.md`
-- `diagrams/week1-architecture-v1.1.png`
-- Version-controlled GitHub repository
+This work is positioned to support **PhD-level research** in distributed systems security, trustworthy systems, and secure software engineering, while remaining grounded in **practical cloud security operations**.
 
 ---
 
-## Lab 01 – Week 3–4: Threat Modelling & Security Validation
-**Objective:** Build on Week 1–2 architecture to identify realistic threats, evaluate misconfigurations, and validate security controls.
+## Week 1–2: Foundations
 
-### Week 3 – Threat Modelling
-- Applied **STRIDE framework** to all components and trust boundaries
-- Created **attack surface diagrams**:
+### Day 1 – Research Framing
+
+- **Focus:** Understanding the problem of architectural weaknesses in cloud and distributed systems.  
+- **Objective:** Bridge the gap between theoretical secure systems design and practical cloud security implementation.  
+- **Outcome:** Defined research hypothesis, security assumptions, and practical research mapping.  
+
+### Day 2 – Secure Architecture Design and Trust Boundary Definition
+
+- **Focus:** Designing a secure distributed cloud architecture that operationalises Day 1 principles.  
+- **Components:** External Users, API Gateway, Web Tier, Application Tier, Data Tier, Identity & Access Management, Observability Layer.  
+- **Trust Boundaries:** TB1 → TB4 with explicit identity-driven controls.  
+
+**Figure 1: Secure Distributed Cloud Architecture with Trust Boundaries**  
+
+![Figure 1: Secure Distributed Cloud Architecture](diagrams/week1-architecture-v1.1.png)
+
+> This architecture provides the baseline for Week 3–4 threat modelling, attack simulation, and DevSecOps pipeline integration.
+
+---
+
+## Week 3–4: Threat Modelling & STRIDE Analysis
+
+- **Focus:** Systematic threat identification and adversary modelling using STRIDE.  
+- **Activities:**  
+  - Defining explicit trust boundaries in a cloud-native system  
+  - Mapping attack surfaces across ingress, service-to-service, and data layers  
+  - Applying STRIDE threat modelling to real cloud components  
+  - Aligning threats with identity-driven controls, RBAC, and zero-trust principles  
+  - Structuring artefacts for reproducibility, auditability, and future experimentation  
 
 **Figure 2: Threat Model Attack Surface – Secure Distributed Cloud System**
 
 ![Figure 2: Threat Model Attack Surface](diagrams/threat-model-attack-surface-week3.png)
 
-- Defined **adversary models** (external, compromised identity, insider)
-- Structured threats into tables with **mitigations, detection points, and observability checks**
-
-### Week 4 – Controlled Misconfigurations
-- Introduced intentional misconfigurations (e.g., over-privileged IAM, public-facing services)
-- Measured **blast radius**, attack feasibility, and detection efficacy
-- Validated logging and alerting in **Microsoft Sentinel**
-- Refined controls and documented **before/after comparisons**
-
-### Artefacts
-- `research/week3-4-threat-modelling/day1-threat-model-overview.md`
-- `research/week3-4-threat-modelling/day2-adversary-model.md`
-- `research/week3-4-threat-modelling/day3-stride-analysis.md`
-- `diagrams/threat-model-attack-surface-week3.png`
+> All diagrams, threat models, and documentation are version-controlled and publicly available.
 
 ---
 
-## Research Significance
-- Demonstrates practical enforcement of **zero-trust, least privilege, and RBAC principles**
-- Provides a **reproducible, auditable foundation** for doctoral-level research
-- Supports controlled experiments in threat modelling and detection
-- Publicly version-controlled artefacts enhance **transparency and academic credibility**
+## Research Continuity & Lab Outputs
+
+- **Controlled misconfiguration experiments** (Week 4)  
+- **Detection engineering and SIEM validation**  
+- **DevSecOps pipeline integration**  
+- **PhD-level reproducibility** in secure distributed systems research  
 
 ---
 
 ## GitHub Repository
-All documentation, diagrams, and experimental artefacts are hosted here:  
-https://github.com/cowajoba-cloud/secure-distributed-cloud-lab
 
----
+Access the full research artefacts, diagrams, and threat models here:  
 
-## LinkedIn Showcase
-A consolidated post summarizing Week 3–4 lab outputs:
-
-*"Over the past two weeks, I advanced my secure distributed cloud research from architecture design into formal threat modelling and security validation. All artefacts, diagrams, and threat models are publicly available on GitHub, demonstrating practical enforcement of zero-trust, least privilege, and identity-driven controls in cloud-native systems."*
-
-https://github.com/cowajoba-cloud
-
+👉 [GitHub: Week 3–4 Threat Modelling](https://github.com/cowajoba-cloud/secure-distributed-cloud-lab/tree/main/research/week3-4-threat-modelling)
