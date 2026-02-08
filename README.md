@@ -75,30 +75,32 @@ This repository contains all lab documentation, research notes, and supporting r
 
 ## 📂 Docs Structure
 
-### Week 1-2: Architecture
+```text
+Week 1-2: Architecture
 🏗️ docs/week1-2-architecture/
-└── research/
-    ├── day1-research-framing.md
-    └── day2-architecture-design.md
+    └── research/
+        ├── day1-research-framing.md
+        └── day2-architecture-design.md
 
-### Week 3-4: Threat Modelling
+Week 3-4: Threat Modelling
 🛡️ docs/week3-4-threat-modelling/
-└── research/
-    ├── day1-threat-model-overview.md
-    ├── day2-adversary-model.md
-    └── day3-stride-analysis.md
+    └── research/
+        ├── day1-threat-model-overview.md
+        ├── day2-adversary-model.md
+        └── day3-stride-analysis.md
 
-### Week 5-6: Control Validation
+Week 5-6: Control Validation
 🔬 docs/week5-6-control-validation/
-├── 📝 01-lab-objectives.md
-├── ⚙️ 02-environment-setup.md
-├── 🗺️ 03-control-mapping.md
-├── 🔬 04-experiments.md
-├── 📊 05-results.md
-├── 💬 06-discussion.md
-└── ⚖️ 07-assets/
-    ├── diagrams/
-    └── notes/
+    ├── 01-lab-objectives.md
+    ├── 02-environment-setup.md
+    ├── 03-control-mapping.md
+    ├── 04-experiments.md
+    ├── 05-results.md
+    ├── 06-discussion.md
+    └── 07-assets/
+        ├── diagrams/
+        └── notes/
+
 
 
 **Notes:**
