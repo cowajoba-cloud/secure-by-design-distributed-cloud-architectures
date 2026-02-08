@@ -107,7 +107,7 @@ Week 5-6: Control Validation
 
 - 📝 Markdown files follow the **logical lab workflow** (Objectives → Setup → Mapping → Experiments → Results → Discussion).  
 - 📂 `07-assets` contains all supporting **diagrams and notes** for the lab.  
-- This layout is **clean, easy to follow**, and ensures anyone reviewing the lab sees the workflow first, then supporting materials.
+- This layout is clean, easy to follow and ensures anyone reviewing the lab sees the workflow first, then supporting materials.
 
 ---
 
@@ -118,10 +118,3 @@ Week 5-6: Control Validation
 3. Reference supporting materials in **07-assets** as needed.
 
 ---
-
-## 🚀 Next Steps
-
-- Complete **Week 5-6 lab work** in the markdown files.  
-- Keep diagrams and notes updated in `07-assets/`.  
-- Commit regularly and maintain the folder naming convention for clarity.
-
