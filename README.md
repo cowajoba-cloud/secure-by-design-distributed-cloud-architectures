@@ -66,3 +66,61 @@ This work is positioned to support **PhD-level research** in distributed systems
 Access the full research artefacts, diagrams, and threat models here:  
 
 👉 [GitHub: Week 3–4 Threat Modelling](https://github.com/cowajoba-cloud/secure-distributed-cloud-lab/tree/main/research/week3-4-threat-modelling)
+
+# 🛡️ Secure Distributed Cloud Lab
+
+This repository contains all lab documentation, research notes, and supporting resources for the **Secure Distributed Cloud** project. The structure is organized by weeks to reflect the lab workflow and design progression.
+
+---
+
+## 📂 Docs Structure
+
+### Week 1-2: Architecture
+🏗️ docs/week1-2-architecture/
+└── research/
+├── day1-research-framing.md
+└── day2-architecture-design.md
+
+### Week 3-4: Threat Modelling
+🛡️ docs/week3-4-threat-modelling/
+└── research/
+├── day1-threat-model-overview.md
+├── day2-adversary-model.md
+└── day3-stride-analysis.md
+
+
+### Week 5-6: Control Validation
+🔬 docs/week5-6-control-validation/
+├──📝 01-lab-objectives.md
+├──⚙️ 02-environment-setup.md
+├──🗺️ 03-control-mapping.md
+├──🔬 04-experiments.md
+├──📊 05-results.md
+├──💬 06-discussion.md
+└──⚖️ 07-assets/
+├── diagrams/
+└── notes/
+
+
+**Notes:**
+
+- 📝 Markdown files follow the **logical lab workflow** (Objectives → Setup → Mapping → Experiments → Results → Discussion).  
+- 📂 `07-assets` contains all supporting **diagrams and notes** for the lab.  
+- This layout is **clean, easy to follow**, and ensures anyone reviewing the lab sees the workflow first, then supporting materials.
+
+---
+
+## ⚡ Workflow Recommendation
+
+1. Start with **01-lab-objectives.md** to understand the lab goals.  
+2. Follow the workflow sequentially through **environment setup, control mapping, experiments, and results**.  
+3. Reference supporting materials in **07-assets** as needed.
+
+---
+
+## 🚀 Next Steps
+
+- Complete **Week 5-6 lab work** in the markdown files.  
+- Keep diagrams and notes updated in `07-assets/`.  
+- Commit regularly and maintain the folder naming convention for clarity.
+
