@@ -106,7 +106,6 @@ Prior to executing experiments, the following validations are performed.
 
 ### Validate Wazuh Core Services
 
-```bash
 sudo systemctl status wazuh-indexer
 sudo systemctl status wazuh-manager
 sudo systemctl status wazuh-dashboard
