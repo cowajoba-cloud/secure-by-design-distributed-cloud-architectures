@@ -105,23 +105,23 @@ Prior to executing experiments, the following validations are performed.
 
 ### Validate Wazuh Core Services
 
-sudo systemctl status wazuh-indexer
-sudo systemctl status wazuh-manager
-sudo systemctl status wazuh-dashboard
-Expected tate : (running)
+- sudo systemctl status wazuh-indexer
+- sudo systemctl status wazuh-manager
+- sudo systemctl status wazuh-dashboard
+- Expected tate : (running)
 
 ## Validate Local Agent: sudo systemctl status wazuh-agent
-sudo systemctl status wazuh-agent
-Dashboard verification confirms:
-Agent status: Active
-Recent keep-alive timestamp
+- sudo systemctl status wazuh-agent
+- Dashboard verification confirms:
+- Agent status: Active
+- Recent keep-alive timestamp
 
 ## Validate SSH Service Availability
-sudo systemctl status ssh
+- sudo systemctl status ssh
 - Ensures SSH is operational for authentication monitoring experiments.
 
 ## Validate Authentication Log Generation
-sudo tail /var/log/auth.log
+- sudo tail /var/log/auth.log
 - Confirms real-time logging prior to adversarial simulation.
 
 ---
