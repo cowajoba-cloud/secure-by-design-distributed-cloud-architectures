@@ -60,7 +60,7 @@ This consolidated architecture is acceptable for controlled academic experimenta
 
 Connectivity validation performed:
 
-ping <target-ip>
+ping : target-ip
 
 ---
 ## 5.5 Security Monitoring Stack Configuration
@@ -109,25 +109,20 @@ sudo systemctl status wazuh-indexer
 sudo systemctl status wazuh-manager
 sudo systemctl status wazuh-dashboard
 Expected tate : (running)
-Validate Local Agent: sudo systemctl status wazuh-agent
 
+## Validate Local Agent: sudo systemctl status wazuh-agent
+sudo systemctl status wazuh-agent
 Dashboard verification confirms:
-
 Agent status: Active
-
 Recent keep-alive timestamp
 
-Validate SSH Service Availability
+## Validate SSH Service Availability
 sudo systemctl status ssh
+- Ensures SSH is operational for authentication monitoring experiments.
 
-
-Ensures SSH is operational for authentication monitoring experiments.
-
-Validate Authentication Log Generation
+## Validate Authentication Log Generation
 sudo tail /var/log/auth.log
-
-
-Confirms real-time logging prior to adversarial simulation.
+- Confirms real-time logging prior to adversarial simulation.
 
 ---
 
