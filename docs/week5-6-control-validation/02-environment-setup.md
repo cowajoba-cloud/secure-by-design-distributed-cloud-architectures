@@ -60,7 +60,6 @@ This consolidated architecture is acceptable for controlled academic experimenta
 
 Connectivity validation performed:
 
-```bash
 ping <target-ip>
 
 ---
