@@ -1,19 +1,23 @@
-# 💬 Discussion – Week 5-6
+# 🧠 Discussion
 
-## Analysis
+## 5.22 Detection Reliability
 
-- Summarize control effectiveness.  
-- Discuss alignment with STRIDE threat model.  
-- Identify gaps or improvements needed in security posture.
+The system demonstrated reliable detection of repeated SSH authentication failures.
 
-## Lessons Learned
+Rule-level transparency allowed forensic validation of alert origin.
 
-- Importance of control validation in a lab environment.  
-- How to map theoretical threats to practical controls.  
-- Documenting results systematically supports auditing and reporting.
+---
 
-## Recommendations
+## 5.23 Detection Latency
 
-- Adjust IAM policies for stricter authentication.  
-- Enhance logging for critical assets.  
-- Regularly update control validation procedures.
+Alert generation occurred within seconds of attack execution.
+
+Latency was considered acceptable for host-based monitoring.
+
+---
+
+## 5.24 Architectural Considerations
+
+Single-node deployment introduces performance constraints.
+
+However, detection capability remained intact under moderate attack simulation.

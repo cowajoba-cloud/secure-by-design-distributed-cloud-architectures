@@ -1,33 +1,41 @@
-# 📝 Lab Objectives – Week 5-6: Control Validation
+# 🎯 Week 5–6: Control Validation Objectives
 
-## Objective
+## 5.1 Purpose
 
-The purpose of this lab is to **validate security controls** in the Secure Distributed Cloud environment using threat modelling insights from Weeks 3-4. This includes:
+The objective of Weeks 5–6 is to empirically validate the effectiveness of implemented detection controls under controlled adversarial simulation.
 
-- Mapping STRIDE threats to implemented security controls.  
-- Testing effectiveness of controls in simulated attack scenarios.  
-- Documenting observations, results, and any gaps in control coverage.  
+This phase transitions from theoretical modelling to measurable security validation.
 
 ---
 
-## Key Goals
+## 5.2 Validation Goals
 
-1. **Identify critical controls** for each threat category (Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, Elevation of Privilege).  
-2. **Validate controls** using practical experiments in the lab environment.  
-3. **Record results** systematically for analysis in the discussion section.  
-4. **Link findings** to diagrams and research notes stored in `07-assets/`.
+The experiments aim to evaluate:
 
----
-
-## Expected Outcomes
-
-- Comprehensive **control mapping table** linking threats to security controls.  
-- Evidence of control effectiveness or weaknesses.  
-- Actionable recommendations for improving security posture.
+- Authentication abuse detection capability
+- Log ingestion integrity
+- Alert generation accuracy
+- Detection latency
+- Rule transparency and forensic visibility
 
 ---
 
-## References
+## 5.3 Research Questions
 
-- STRIDE threat model outputs from Week 3-4.  
-- Diagrams in `07-assets/diagrams/` and notes in `07-assets/notes/`.  
+1. Does the monitoring system detect repeated SSH authentication failures?
+2. Are alerts generated in near real-time?
+3. Is rule-level telemetry sufficient for forensic investigation?
+4. What limitations exist within a single-node deployment?
+
+---
+
+## 5.4 Experimental Methodology
+
+Each experiment follows:
+
+1. Baseline validation
+2. Controlled attack execution
+3. Alert observation
+4. Rule analysis
+5. Evidence documentation
+6. Analytical interpretation

@@ -1,17 +1,33 @@
 # 📊 Results – Week 5-6
+---
 
-| Experiment | Outcome | Notes / Evidence |
-|------------|---------|----------------|
-| Spoofing   | Passed/Failed | Screenshot/log file reference |
-| Tampering  | Passed/Failed | Logs from monitoring system |
-| DoS        | Passed/Failed | CPU/memory usage graphs |
-| Elevation  | Passed/Failed | Unauthorized access attempts |
-| Info Disclosure | Passed/Failed | Access denied logs |
+# 📄 05-results.md
+
+```markdown
+# 📊 Experimental Results
+
+## 5.20 Summary of Findings
+
+| Metric | Observation |
+|---------|-------------|
+| Detection Success | Yes |
+| Alert Generated | Yes |
+| Rule Triggered | SSH authentication failure |
+| Source IP Captured | Yes |
+| Latency | <Insert measured value> |
 
 ---
 
-## Observations
+## 5.21 Technical Validation Outcome
 
-- Controls that performed well.
-- Controls with gaps or failure points.
-- Anomalies or unexpected behaviors.
+The monitoring stack successfully detected repeated failed SSH login attempts.
+
+Alert data contained:
+
+- Accurate source IP
+- Timestamp
+- Rule ID
+- Severity level
+- Raw log context
+
+This demonstrates effective host-based intrusion detection capability.
