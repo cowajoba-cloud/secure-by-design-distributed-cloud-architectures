@@ -117,6 +117,8 @@ This validated:
 - Log generation integrity
 - Proper SSH logging configuration
 
+![Raw Log Validation on Ubuntu Deskstop](../00-research-assets/screenshots/week5-control-validation/05_auth_log_entries.png)
+
 ---
 
 ## 6. Alert Detection in Wazuh
