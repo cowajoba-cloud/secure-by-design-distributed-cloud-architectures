@@ -160,7 +160,7 @@ The event was mapped to:
 
 - Technique: T1110 – Brute Force
 
-![MITRE Mapping](../00-research-assets/screenshots/week5-control-validation/08_W5_S7_MITRE_T1110_Mapping.PNG)
+![MITRE Mapping](../00-research-assets/screenshots/week5-control-validation/08_W5_S7_MITRE_T1110_Mapping.png)
 
 This demonstrates alignment with threat intelligence frameworks.
 
