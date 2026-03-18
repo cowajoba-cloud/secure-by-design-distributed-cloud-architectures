@@ -109,11 +109,6 @@ for validating detection performance in distributed systems
 
 ---
 
-# 📁 Repository Structure
-
-
----
-
 # 📂 Repository Structure
 
 ```text
