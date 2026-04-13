@@ -81,32 +81,17 @@ This project is evolving toward:
 │ │ └── 📁 screenshots
 │ │     ├── 📁 week5-control-validation
 │ │     ├── 📁 week6-extended-analysis
-│ │     └── 📁 week7-8-detection-validation   ✅ (ADD THIS)
+│ │     └── 📁 week7-8-detection-validation   ✅
 │ │
 │ ├── 📁 week1-2-architecture
-│ │ ├── 01-research-framing.md
-│ │ ├── 02-system-architecture-design.md
-│ │ ├── 03-design-rationale.md
-│ │ └── 04-architecture-evaluation.md
-│ │
 │ ├── 📁 week3-4-threat-modelling
-│ │ ├── 01-threat-model-overview.md
-│ │ ├── 02-adversary-model.md
-│ │ ├── 03-stride-analysis.md
-│ │ ├── 04-attack-surface-analysis.md
-│ │ └── 05-threat-prioritisation.md
-│ │
 │ ├── 📁 week5-6-control-validation
-│ │ ├── 01-lab-objectives.md
-│ │ ├── 02-environment-setup.md
-│ │ ├── 03-control-mapping.md
-│ │ ├── 04-experiments.md
-│ │ ├── 05-results.md
-│ │ ├── 06-discussion.md
-│ │ └── 07-limitations-and-future-work.md
 │ │
-│ └── 📁 week7-8-literature-review   ✅ (ADD THIS)
-│     └── week7-8-literature-review.md
+│ ├── 📁 week7-8-detection-validation   ✅
+│ │ └── week7-8-detection-validation.md
+│ │
+│ └── 📁 week9-10-literature-review   ✅
+│     └── week9-10-targeted-literature-review.md
 
 
 # 📄 Licence
