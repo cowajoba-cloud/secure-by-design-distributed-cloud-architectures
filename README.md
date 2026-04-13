@@ -1,111 +1,65 @@
 # 🔐 Secure-by-Design Distributed Cloud Architectures
 
-A structured research project focused on designing, validating, and benchmarking detection capabilities in distributed cloud-native environments.
+A structured cybersecurity research project focused on designing, validating, and benchmarking detection capabilities in distributed cloud-native environments.
 
 ---
 
-# 📌 Research Overview
-
-This project explores:
-
-- Secure architecture design  
-- Threat modeling and attack surface analysis  
-- Control validation using real-world attack simulation  
-- Detection engineering and SIEM validation  
-- Empirical benchmarking of detection performance  
-
----
-
-# 🧠 Research Progression
+# 🧠 Research Journey
 
 ## 🏗️ Weeks 1–2: Architecture Design
 - Designed distributed cloud architecture  
-- Defined trust boundaries and system components  
+- Defined trust boundaries  
 
 ---
 
-## ⚠️ Weeks 3–4: Threat Modeling
+## ⚠️ Weeks 3–4: Threat Modelling
 - STRIDE analysis  
 - Attack surface identification  
-- Adversary modeling  
 
 ---
 
 ## 🛡️ Weeks 5–6: Control Validation
-- Deployed Wazuh SIEM  
 - Simulated SSH brute-force attacks  
-- Validated detection rules  
-- Confirmed log ingestion pipeline  
-
-📸 Evidence includes:
-- Attack execution logs  
-- Wazuh alert correlation  
-- MITRE ATT&CK mapping  
+- Validated Wazuh SIEM detection  
+- Confirmed log ingestion and alerting  
 
 ---
 
-## 🧪 Weeks 7–8: Detection Validation & Benchmarking
+## 🔍 Weeks 7–8: Detection Validation & Empirical Benchmarking
+- Verified end-to-end detection pipeline  
+- Conducted attack simulations using Hydra  
+- Validated SIEM detection behavior  
 
-Focus:
-> Moving from functional validation → performance validation
-
-### Key Activities:
-- File Integrity Monitoring (FIM) validation  
-- SSH brute-force detection  
-- End-to-end detection pipeline verification  
-- Alert investigation and correlation analysis  
-
-### Key Outcomes:
-- Verified full detection pipeline:
-  - Attack → Logs → Wazuh Agent → SIEM → Alert  
-- Confirmed real-time detection capability  
-- Identified limitations in detection benchmarking  
+📄 View Work:  
+docs/week7-8-detection-validation/
 
 ---
 
-# 📊 Research Direction
+## 📚 Weeks 9–10: Targeted Literature Review & Research Gap Identification
+- Reviewed research aligned with leading academics  
+- Identified gaps in detection performance evaluation  
+- Defined research problem direction  
+
+📄 View Work:  
+docs/week9-10-literature-review/
+
+---
+
+# 🎯 Research Direction
 
 This project is evolving toward:
 
-> A reproducible detection benchmarking framework  
-for distributed cloud-native architectures
+> A reproducible framework for **empirical detection benchmarking** in distributed cloud systems
 
 ---
 
-# 🔍 Identified Research Gaps
+# 🛠️ Technologies
 
-- Lack of detection latency benchmarking  
-- Limited SIEM stress testing  
-- No standardized validation frameworks  
-- Minimal real-world distributed experimentation  
-
----
-
-# 🚀 Next Phase
-
-- Detection latency measurement  
-- High-volume attack simulation  
-- Distributed node benchmarking  
-- Empirical performance evaluation  
-
----
-
-# 🎯 Long-Term Goal
-
-To develop:
-
-> A structured, measurable, and reproducible framework  
-for validating detection performance in distributed systems
-
----
-
-# 🛠️ Technologies Used
-
-- Wazuh (SIEM & XDR)  
-- Kali Linux (Attack Simulation)  
-- Ubuntu Desktop (Target System)  
-- Hydra (Brute-force testing)  
-- VirtualBox (Lab environment)  
+- Wazuh SIEM  
+- Kali Linux  
+- Ubuntu Desktop  
+- Hydra (attack simulation)  
+- VirtualBox  
 
 ---
 
