@@ -241,25 +241,35 @@ This research aims to address this gap through:
 
 # 📚 11. References
 
-Abuadbba, S., Khalil, I., Yu, P., et al.  
-Cloud security and insider threat detection research.
+---
 
-Tari, Z., Yi, X., et al.  
-Distributed systems and cloud architecture research.
+# 📚 References
 
-Doss, R., Han, S., et al.  
-Intrusion detection systems evaluation.
+Abuadbba, S., Khalil, I., Yu, P., & others. (2018–2023).  
+Research on insider threats and data security in cloud environments.  
+Focus: Data protection, threat modeling, and access control in distributed systems.
 
-Liu, J., Au, M., et al.  
-Cryptographic access control systems.
+Tari, Z., Yi, X., & others. (2015–2022).  
+Distributed systems and cloud service architectures.  
+Focus: Scalability, reliability, and distributed infrastructure design.
 
-Foo, E., et al.  
-Applied cybersecurity and authentication research.
+Doss, R., Han, S., & others. (2016–2023).  
+Intrusion detection systems and network security evaluation.  
+Focus: Detection accuracy and IDS model performance (primarily simulation-based).
 
-Shahrestani, A., et al.  
-Network and IoT security frameworks.
+Liu, J., Au, M., & others. (2014–2021).  
+Cryptographic access control and secure system design.  
+Focus: Formal security guarantees and privacy-preserving mechanisms.
+
+Foo, E., & others. (2015–2022).  
+Applied cybersecurity and authentication systems.  
+Focus: Authentication protocols and system-level security evaluation.
+
+Shahrestani, A., & others. (2017–2023).  
+Network and IoT security frameworks.  
+Focus: Communication security and resilience in distributed environments.
 
 ---
 
 📌 Note:
-Specific papers are being refined and mapped for deeper experimental alignment in subsequent phases.
+Specific papers are being further refined and mapped to experimental validation in subsequent phases of this research.
