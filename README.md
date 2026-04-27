@@ -1,3 +1,10 @@
+# **Author: Charles Owajoba**
+**MSc Computer Science (Software Engineering)**
+
+**GitHub:** https://github.com/cowajoba-cloud  
+**LinkedIn:** https://www.linkedin.com/in/charlesowajoba/  
+**ORCID:** https://orcid.org/0009-0005-5558-9558
+
 # 🔐 Secure-by-Design Distributed Cloud Architectures
 
 A structured cybersecurity research project focused on designing, validating, and benchmarking detection capabilities in distributed cloud-native environments.
