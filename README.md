@@ -1,6 +1,5 @@
 # **Author: Charles Owajoba**
-**MSc Computer Science (Software Engineering)**
-
+**MSc Cybersecurity X MSc Computer Science (Software Engineering)**
 **GitHub:** https://github.com/cowajoba-cloud  
 **LinkedIn:** https://www.linkedin.com/in/charlesowajoba/  
 **ORCID:** https://orcid.org/0009-0005-5558-9558
@@ -126,14 +125,12 @@ Academic and research use.
 # 👤  Author
 
 Charles Owajoba  
-Cybersecurity | Cloud Security | Detection Engineering  
+|Secure Systems Engineer | Cybersecurity × Software Engineering | Applied Security Research | Secure-by-Design Architecture | Detection Engineering & SIEM | DevSecOps | API Design | Python | ISO 27001  
 
 ---
 
-# 🌍 Vision
-
+🌍 Vision
 Bridging the gap between:
-
-> Secure system design  
+> Secure System Design  
 and  
-> measurable detection effectiveness
+> Measurable Detection Effectiveness
