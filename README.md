@@ -70,6 +70,22 @@ This project is evolving toward:
 
 ---
 
+## 🏗️ Architecture Overview
+The environment consists of multiple systems working together to support secure monitoring, controlled adversary simulation, and software delivery validation.
+
+![Secure-by-Design Architecture Overview](screenshots/01-architecture/S01_architecture_overview_diagram.png)
+
+| Component | Role |
+|---|---|
+| macOS Host | Management and documentation layer |
+| Windows Host | VirtualBox host and lab control plane |
+| Ubuntu Server | Core infrastructure, Wazuh Manager, and private registry |
+| Ubuntu Desktop | CI/CD runner and monitored endpoint |
+| Kali Linux | Controlled adversary simulation |
+| Wazuh Manager | SIEM / XDR monitoring layer |
+| Docker Registry | Internal secure artifact storage |
+| GitHub Actions Runner | Secure CI/CD execution node |
+
 # 📂 Repository Structure
 
 ```text
