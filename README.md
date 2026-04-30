@@ -126,7 +126,8 @@ Academic and research use.
 # 👤  Author
 
 Charles Owajoba  
-|Secure Systems Engineer | Cybersecurity × Software Engineering | Applied Security Research | Secure-by-Design Architecture | Detection Engineering & SIEM | DevSecOps | API Design | Python | ISO 27001  
+|Secure Systems Engineer|Cybersecurity × Software Engineering|Applied Security Research| 
+|Secure-by-Design Architecture | Detection Engineering & SIEM | DevSecOps | 
 
 ---
 
