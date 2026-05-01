@@ -8,7 +8,7 @@ Systematically identify threats in the secure distributed cloud architecture usi
 ## Reference Diagram
 **Figure 2: Threat Model Attack Surface – Secure Distributed Cloud System**
 
-![Threat Model Attack Surface](../../diagrams/threat-model-attack-surface-week3.png)
+![Threat Model Attack Surface](../00-research-assets/diagrams/threat-model-attack-surface-week3.png)
 
 *All trust boundaries (TB1–TB4) and attack paths are illustrated.*
 

@@ -70,7 +70,7 @@ Each trust boundary is explicitly enforced using **identity-driven controls** ra
 
 The secure distributed cloud architecture, including trust boundaries and IAM enforcement points, is illustrated in **Figure 1 below**:  
 
-![Figure 1: Secure Distributed Cloud Architecture with Trust Boundaries](../../diagrams/week1-architecture-v1.1.png)
+![Figure 1: Secure Distributed Cloud Architecture with Trust Boundaries](../00-research-assets/diagrams/week1-architecture-v1.1.png)
 
 ---
 
