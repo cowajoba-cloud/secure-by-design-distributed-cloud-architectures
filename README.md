@@ -73,7 +73,7 @@ This project is evolving toward:
 ## 🏗️ Architecture Overview
 The environment consists of multiple systems working together to support secure monitoring, controlled adversary simulation, and software delivery validation.
 
-![Secure-by-Design Architecture Overview](screenshots/01-architecture/S01_architecture_overview_diagram.png)
+![Secure-by-Design Architecture Overview](ArchSentinel-Flow-Preprint/assets/fig1_lab_topology.png)
 
 | Component | Role |
 |---|---|
